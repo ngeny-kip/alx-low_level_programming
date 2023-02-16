@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -A program that prints a line with puts function.
+ *	main -A program that prints a line with puts function.
  *
- * Return -retutns a successful value.
+ *	Return -retutns a successful value.
  */
 
 int main(void)
