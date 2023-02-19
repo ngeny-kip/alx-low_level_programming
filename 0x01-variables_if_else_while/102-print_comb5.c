@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+/**
+ *  main - Entry point
+ *  Return: zero (success)
+ */
+int main(void)
+{
+	int digit0;
+	int digit1;
+
+	for (digit0 = 0; digit0 < 98; digit0++)
+	{
+		for (digit1 = digit0 + 1; digit1 < 99; digit1++)
+		{
+			putchar((digit0 / 10) + '0');
+			putchar((digit0 % 10) + '0');
+			putchar(' ');
+			putchar((digit1 / 10) + '0');
+			putchar((digit1 % 10) + '0');
+
+			if (digit0 == 98 && digit1 == 99)
+			continue;
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
