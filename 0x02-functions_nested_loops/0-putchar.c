@@ -1,15 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main -prints putchar
- * Return: returns zero(successful)
+ * main - print _putchar
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	int g;
-
-	g = 5;
-	if (g <= 5)
-		printf("0_putchar\n");
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
