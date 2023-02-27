@@ -5,12 +5,12 @@
  * @s: string to be printed
  * Return: Return 0 successful
  */
-void print_rev(char *s)
+void print _rev(char *s)
 {
 	int revs = 0;
 	int o;
 
-	while (*s != \'0')
+	while (*s != '\0')
 	{
 		revs++;
 		s++;
