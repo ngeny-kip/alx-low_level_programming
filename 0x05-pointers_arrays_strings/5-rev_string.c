@@ -5,7 +5,7 @@
  * @s: string to be printed
  * Return: Return a reversed string
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	char rev = s[0];
 	int counter = 0;
