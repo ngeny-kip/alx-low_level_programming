@@ -5,7 +5,7 @@
  * @s: string to be printed
  * Return: Return 0 successful
  */
-void print _rev(char *s)
+void print_rev(char *s)
 {
 	int revs = 0;
 	int o;
